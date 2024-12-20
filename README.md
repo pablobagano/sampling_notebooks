@@ -1,4 +1,4 @@
-# Sampling Techniques: Theory, Formulas, and Exercises 🚀
+# Stratified Sampling: Theory, Formulas, and Exercises 🚀
 
 Welcome to the **Sampling Notebook Series**! This resource is designed to help students, data analysts, and professionals understand and apply various sampling techniques in statistics and data analysis.
 
@@ -7,60 +7,86 @@ Welcome to the **Sampling Notebook Series**! This resource is designed to help s
 ## **Overview 📋**
 
 This repository covers:
-- **Theory**: Key concepts of statistical sampling, types, and use cases.
+- **Theory**: Key concepts of sampling techniques, their types, and use cases.
 - **Formulas**: Step-by-step derivations of essential statistical measures.
 - **Practical Examples**: Solved problems illustrating real-world applications.
 - **Exercises**: Practice problems to test and reinforce learning.
+- **Python Code**: Solutions implemented using Python in Jupyter Notebooks.
 
 ---
 
 ## **Table of Contents 📚**
+1. **Chapter 1**: Introduction to Sampling  
+   - What is Sampling?  
+   - Population vs. Sample  
+   - Benefits and Key Terminology  
 
-1. **Introduction to Statistical Sampling**
-   - Definition and Importance of Sampling
-   - Types of Sampling Methods
+2. **Chapter 2**: Simple Random Sampling  
+   - Concept and Definition  
+   - Key Formulas for Mean and Variance  
+   - Applications and Limitations  
+   - Solved Examples and Practice Exercises  
 
-2. **Parameters, Estimators, and Inference**
-   - Parameters vs. Statistics
-   - Key Estimators and Mean Squared Error
-   - Confidence Intervals for Population Mean and Proportion
+3. **Chapter 3**: Parameters, Estimators, and Inference  
+   - What are Estimators?  
+   - Bias, Variance, and Mean Squared Error (MSE)  
+   - Confidence Intervals for Estimators  
+   - Solved Examples and Practice Exercises  
 
-3. **Simple Random Sampling**
-   - Concept and Procedure
-   - Formulas for Mean, Total, and Variance
-   - Examples and Exercises
+4. **Chapter 4**: Stratified Sampling  
+   - Introduction to Stratified Sampling  
+   - Proportional and Disproportional Allocation  
+   - Estimators for Mean, Total, and Variance  
+   - Confidence Intervals for Mean and Proportions  
+   - Solved Examples and Practice Exercises  
 
-4. **Stratified Sampling**
-   - Introduction to Stratified Sampling
-   - Proportional and Disproportional Sampling
-   - Estimators for Mean, Total, and Variance
-   - Confidence Intervals for Mean and Proportions
-   - Solved Examples and Exercises
+5. **Chapter 5**: Systematic Sampling  
+   - Concept and Definition  
+   - Applications and Limitations  
+   - Estimation of Mean and Variance  
+   - Comparison with Simple Random Sampling  
+   - Solved Examples and Practice Exercises  
 
-5. **Systematic Sampling**
-   - Concept and Procedure
-   - Advantages and Disadvantages
-   - Examples and Exercises
+6. **Chapter 6**: Cluster Sampling  
+   - One-Stage and Two-Stage Cluster Sampling  
+   - Estimators for Mean, Total, and Variance  
+   - Efficiency of Cluster Sampling  
+   - Solved Examples and Practice Exercises  
 
-6. **Cluster Sampling**
-   - Introduction to Cluster Sampling
-   - One-Stage vs. Two-Stage Sampling
-   - Efficiency and Use Cases
-   - Solved Examples and Exercises
+7. **Chapter 7**: Multistage Sampling  
+   - Concept and Need for Multistage Sampling  
+   - Comparison with Stratified and Cluster Sampling  
+   - Design and Estimation in Multistage Sampling  
+   - Real-World Applications  
+   - Solved Examples and Practice Exercises  
 
-7. **Multistage Sampling**
-   - Concept of Multistage Sampling
-   - Examples and Use Cases
-   - Solved Examples and Exercises
+8. **Chapter 8**: Non-Probability Sampling  
+   - Convenience, Quota, and Snowball Sampling  
+   - Applications and Limitations  
+   - Bias and Lack of Representativeness  
+   - Solved Examples and Practice Exercises  
+
+9. **Chapter 9**: Sampling in Practice  
+   - Designing a Sampling Plan  
+   - Addressing Real-World Challenges  
+   - Ethical Considerations in Sampling  
+   - Case Studies and Practice Exercises  
+
+10. **Chapter 10**: Advanced Topics in Sampling  
+    - Double Sampling  
+    - Adaptive Sampling  
+    - Respondent-Driven Sampling  
+    - Emerging Techniques  
+    - Solved Examples and Practice Exercises  
 
 ---
 
 ## **Key Features ✨**
 
-- **Conceptual Clarity**: Red headers and green subheaders for readability.  
+- **Conceptual Clarity**: Each chapter is structured with red headers and green subheaders for readability.  
 - **Formulas in LaTeX**: Well-formatted equations for accuracy and clarity.  
-- **Practical Code**: Python-based solutions for calculations and visualization.  
-- **Interactive Learning**: Exercises at the end of each section for hands-on practice.
+- **Practical Code**: Python-based solutions for calculations and visualizations.  
+- **Interactive Learning**: Exercises at the end of each section for hands-on practice.  
 
 ---
 
@@ -71,36 +97,8 @@ This repository covers:
 - Libraries:
   - `pandas` for data manipulation  
   - `matplotlib` for visualization  
-  - `scipy` for statistical calculations
+  - `scipy` for statistical calculations  
 
 To install the required libraries, run:  
 ```bash
 pip install pandas matplotlib scipy
-```
-
----
-
-## **How to Use 📝**
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/pablobagano/sampling_notebooks.git
-   ```
-2. Navigate to the folder and open the Jupyter Notebooks:
-   ```bash
-   cd sampling_notebooks
-   jupyter notebook
-   ```
-3. Select the desired notebook and start exploring.
-
----
-
-## **Contributing 🤝**
-
-Suggestions and contributions are welcome! Feel free to submit issues or pull requests to improve this resource.
-
----
-
-## **License 📄**
-
-This project is licensed under the MIT License.
